@@ -128,8 +128,8 @@ public class RippleButton extends Button {
 
             TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.RippleButton);
 
-            int nColor = a.getColor(R.styleable.RippleButton_buttonColor, buttonColor);
-            int hColor = a.getColor(R.styleable.RippleButton_rippleColor, rippleColor);
+            int nColor = a.getColor(R.styleable.RippleButton_buttonColour, buttonColor);
+            int hColor = a.getColor(R.styleable.RippleButton_rippleColour, rippleColor);
 
             a.recycle();
 

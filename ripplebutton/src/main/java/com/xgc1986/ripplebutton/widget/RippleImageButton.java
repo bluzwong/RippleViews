@@ -101,8 +101,8 @@ public class RippleImageButton extends ImageButton {
         if (!isInEditMode()) {
             TypedArray a = getContext().obtainStyledAttributes(attrs, R.styleable.RippleButton);
 
-            int nColor = a.getInt(R.styleable.RippleButton_buttonColor, buttonColor);
-            int hColor = a.getInt(R.styleable.RippleButton_rippleColor, rippleColor);
+            int nColor = a.getInt(R.styleable.RippleButton_buttonColour, buttonColor);
+            int hColor = a.getInt(R.styleable.RippleButton_rippleColour, rippleColor);
 
             setButtonColor(nColor);
             setRippleColor(hColor);
